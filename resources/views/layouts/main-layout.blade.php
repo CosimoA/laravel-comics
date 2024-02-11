@@ -7,7 +7,7 @@
 
     @vite("resources/js/app.js")
 
-    @yield('head')
+    @yield('head-title')
 </head>
 <body>
     <div class="text-center">
