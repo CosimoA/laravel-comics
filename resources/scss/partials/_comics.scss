@@ -1,0 +1,68 @@
+#comics{
+    background-color: $colorDarkSection;
+    color: $colorTextDarkSection;
+
+    .container {
+        padding-bottom: 0.8rem;
+
+        .title-section{
+            background-color: $colorPrimary;
+            display: inline-block;
+            padding: 1rem 2rem ;
+            transform: translateY(-50%);
+    
+            h2{
+                font-size: 2em;
+            }
+        }
+    
+        .box-comics{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+    
+            .card{
+                flex-basis: 180px;
+                margin: 0.8rem;
+                text-align: center;
+    
+                .card-image{
+                    width: 180px;
+                    height: 180px;
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: top;
+                    }
+                }
+    
+                .card-title p{
+                    margin-top: 5px;
+                }
+            }
+        }
+    
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0.8rem 0;
+    
+            .btn-load{
+                background-color: $colorPrimary;
+    
+                a{
+                    display: inline-block;
+                    padding: 1rem 2.5rem ;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    color: #fff;
+                }
+            }
+        }
+    };
+
+    
+}
