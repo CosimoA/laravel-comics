@@ -32,7 +32,7 @@
                                 <a class="uppercase" href="#">Characters</a>
                             </li>
                             <li>
-                                <a class="uppercase active" href="#">Comics</a>
+                                <a class="uppercase active" href="{{ route("homepage") }}">Comics</a>
                             </li>
                             <li>
                                 <a class="uppercase" href="#">Movies</a>

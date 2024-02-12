@@ -25,6 +25,10 @@
                 flex-basis: 180px;
                 margin: 0.8rem;
                 text-align: center;
+
+                &:hover{
+                    scale: 1.1;
+                }
     
                 .card-image{
                     width: 180px;
